@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>657</width>
+    <height>607</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Продвинутый калькулятор</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>657</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Меню</string>
+    </property>
+    <widget class="QMenu" name="equations">
+     <property name="title">
+      <string>Уравнения</string>
+     </property>
+     <widget class="QMenu" name="algebraic">
+      <property name="title">
+       <string>Алгебраические</string>
+      </property>
+      <addaction name="linear"/>
+      <addaction name="square"/>
+      <addaction name="rational"/>
+      <addaction name="irrational"/>
+     </widget>
+     <widget class="QMenu" name="transcendental">
+      <property name="title">
+       <string>Трансцендентные</string>
+      </property>
+      <addaction name="logarithmic"/>
+      <addaction name="indicative"/>
+      <addaction name="trigonometric"/>
+     </widget>
+     <addaction name="algebraic"/>
+     <addaction name="transcendental"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="calculation"/>
+    <addaction name="equations"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Работа с базой данных</string>
+    </property>
+    <widget class="QMenu" name="menu_5">
+     <property name="title">
+      <string>Изменить</string>
+     </property>
+     <widget class="QMenu" name="menu_6">
+      <property name="title">
+       <string>Название</string>
+      </property>
+      <addaction name="rename_term"/>
+      <addaction name="rename_section"/>
+     </widget>
+     <widget class="QMenu" name="menu_7">
+      <property name="title">
+       <string>Описание</string>
+      </property>
+      <addaction name="redescription_term"/>
+      <addaction name="redescription_section"/>
+     </widget>
+     <addaction name="menu_6"/>
+     <addaction name="menu_7"/>
+     <addaction name="resection_term"/>
+    </widget>
+    <widget class="QMenu" name="menu_3">
+     <property name="title">
+      <string>Удалить</string>
+     </property>
+     <addaction name="remove_term"/>
+     <addaction name="remove_section"/>
+    </widget>
+    <widget class="QMenu" name="menu_4">
+     <property name="title">
+      <string>Новый</string>
+     </property>
+     <addaction name="new_term"/>
+     <addaction name="new_section"/>
+    </widget>
+    <addaction name="menu_4"/>
+    <addaction name="menu_3"/>
+    <addaction name="menu_5"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="calculation">
+   <property name="text">
+    <string>Обычный калькулятор</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>Линейные уравнения</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>Квадратные уравнения</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>Дробно-рациональные уравнения</string>
+   </property>
+  </action>
+  <action name="action_9">
+   <property name="text">
+    <string>Иррациональные уравнения</string>
+   </property>
+  </action>
+  <action name="linear">
+   <property name="text">
+    <string>Линейные</string>
+   </property>
+  </action>
+  <action name="square">
+   <property name="text">
+    <string>Квадратные</string>
+   </property>
+  </action>
+  <action name="rational">
+   <property name="text">
+    <string>Рациональные</string>
+   </property>
+  </action>
+  <action name="irrational">
+   <property name="text">
+    <string>Иррациональные</string>
+   </property>
+  </action>
+  <action name="logarithmic">
+   <property name="text">
+    <string>Логарифмические</string>
+   </property>
+  </action>
+  <action name="indicative">
+   <property name="text">
+    <string>Показательные</string>
+   </property>
+  </action>
+  <action name="trigonometric">
+   <property name="text">
+    <string>Тригонометрические</string>
+   </property>
+  </action>
+  <action name="remove_term">
+   <property name="text">
+    <string>Термин</string>
+   </property>
+  </action>
+  <action name="remove_section">
+   <property name="text">
+    <string>Раздел</string>
+   </property>
+  </action>
+  <action name="new_term">
+   <property name="text">
+    <string>Термин</string>
+   </property>
+  </action>
+  <action name="new_section">
+   <property name="text">
+    <string>Раздел</string>
+   </property>
+  </action>
+  <action name="rename_term">
+   <property name="text">
+    <string>Термина</string>
+   </property>
+  </action>
+  <action name="rename_section">
+   <property name="text">
+    <string>Раздела</string>
+   </property>
+  </action>
+  <action name="redescription_term">
+   <property name="text">
+    <string>Термина</string>
+   </property>
+  </action>
+  <action name="redescription_section">
+   <property name="text">
+    <string>Раздела</string>
+   </property>
+  </action>
+  <action name="resection_term">
+   <property name="text">
+    <string>Раздел термина</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

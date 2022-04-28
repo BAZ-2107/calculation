@@ -1,0 +1,2 @@
+{"+": "add", "-": "sub", "/": "div", "*": "mull", "^": "pow", ">": "more", "<": "less", "=": "equal", ")": "right bracket", "(": "left bracket", "≥": "more_or_equal", "≤": "less_or_equal", 
+"∞": "infinity", "√": "radical", "±": "add_or_sub", "•": "mull_2", "|": "module"}
